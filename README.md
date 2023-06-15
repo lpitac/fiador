@@ -9,8 +9,9 @@
 __Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite hilar una colección de objetos digitales con sus metadatos en formato CSV para crear una exposición virtual en formato web, lista para publicar, basada en la plantilla [__Exposición__ __Virtual__](https://github.com/lpitac/exposicion).
 El sitio web resultante se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
+__Fiador__ ha sido desarrollado bajo principios de computación mínima, con el objetivo de que su uso requiriese de los mínimos recursos de hardware, software y conocimientos informáticos.
 ## Cómo funciona
-__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [Jekyll](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [__Exposición virtual__](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
+__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [__Exposición virtual__](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
 De este modo una vez ejecutado el instalador se llevará a cabo el proceso de generación de la exposición virtual que consta de los siguientes pasos:
 1. Instalación de prerrequisitos
 	- Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe')
@@ -18,25 +19,22 @@ De este modo una vez ejecutado el instalador se llevará a cabo el proceso de ge
 	- Descarga la plantilla [Exposición virtual](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
 	- Descomprime el archivo en la misma ubicación.
 2. Configuración básica
-	- Copia el archivo de la portada indicada por el usuario a la carpeta raíz de la colección.
-	- Modifica el valor de _featured-image_ en el archivo /_data/theme.yml , con la ruta al archivo de la portada en la carpeta raíz de la colección.
+	- Copia el archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
+	- Modifica el valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
 	- Modifica en el archivo _ _config.yml_ el valor de los siguientes parámetros con los indicados por el usuario: 
-		- _title_
-		- _subtitle_
-		- _description_
-		- _author_
-		- _base_: se genera automáticamente tomando la ubicación seleccionada por el usuario.
-		- _baseurl_: se genera automáticamente tomando la ubicación seleccionada por el usuario.
+		- ___title___
+		- ___subtitle___
+		- ___description___
+		- ___author___
+		- ___base___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
+		- ___baseurl___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
 3. Cargar datos
-	- Copia los objetos digitales de la ubicación indicada por el usuario a la carpeta ___objects___ ubicada en la raíz de la colección.
-	- Copia el CSV con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___ ubicada en la raíz de la colección.
+	- Copia los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
+	- Copia el __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
 4. Generar colección
-	- Instala Jekyll y Bundle
-	- Ejecuta el servidor Jekyll
-	- Abre index.html en el navegador.
-
-
-__Fiador__ ha sido desarrollado bajo principios de computación mínima, con el objetivo de que su uso requiriese de los mínimos recursos de hardware, software y conocimientos informáticos.
+	- Instala __Jekyll__ y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
+	- Ejecuta el servidor __Jekyll__.
+	- Abre ___index.html___ en el navegador.
 
 <a name="demo"></a>
 # Demo
