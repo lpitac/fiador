@@ -6,7 +6,7 @@
 <h4 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h4>
 
 # Fiador 1.0
-__Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite hilar una colección de objetos digitales con su metadatos en formato CSV para crear una exposición virtual en formato web, lista para publicar, basándose en la plantilla [__Exposición__ __Virtual__](https://github.com/lpitac/exposicion).
+__Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite hilar una colección de objetos digitales con sus metadatos en formato CSV para crear una exposición virtual en formato web, lista para publicar, basada en la plantilla [__Exposición__ __Virtual__](https://github.com/lpitac/exposicion).
 El sitio web resultante se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 ## Exposición Virtual
@@ -31,9 +31,9 @@ Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtu
 3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
 4. Pulsa sobre el botón __"Generar"__.
 
-El proceso dará comienzo; puede tardar hasta 3 minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
+El proceso dará comienzo; puede tardar hasta 3 minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado y se creará un acceso directo en el Escritorio a __Fiador__.
 
-> <h3>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h3>
+<h3>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h3>
 
 ## | Opción 2 | Exposición personalizada
 1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
@@ -41,7 +41,7 @@ El proceso dará comienzo; puede tardar hasta 3 minutos en completarse. Una vez 
 2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
 3. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
 
-> <h3>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h3>
+<h3>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h3>
 ---
 <a name="tecnologias"></a>
 # Tecnologías empleadas
