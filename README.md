@@ -10,9 +10,33 @@ __Fiador__ es un software libre escrito en [Python](https://www.python.org) que 
 El sitio web resultante se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 ## Cómo funciona
-__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [Jekyll](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y la plantilla "__Exposición virtual__", un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
+__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [Jekyll](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [__Exposición virtual__](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
+De este modo una vez ejecutado el instalador se llevará a cabo el proceso de generación de la exposición virtual que consta de los siguientes pasos:
+1. Instalación de prerrequisitos
+	- Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe')
+	- Ejecuta el instalador rubyinstaller-devkit-3.1.3-1-x64.exe de forma desatendida sin MSYS2.
+	- Descarga la plantilla [Exposición virtual](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
+	- Descomprime el archivo en la misma ubicación.
+2. Configuración básica
+	a. Copia el archivo de la portada indicada por el usuario a la carpeta raíz de la colección.
+	b. Modifica el valor de _featured-image_ en el archivo /_data/theme.yml , con la ruta al archivo de la portada indicada por el usuario.
+	c. Modifica el archivo _ _config.yml_ con los parámetros indicados por el usuario: 
+		• Título
+		• Descripción
+		• Autor
+		• Ruta del logotipo: se modifica automáticamente tomando la ubicación a la que se copia previamente.
+		• base: se modifica automáticamente tomando la ubicación seleccionada por el usuario.
+		• baseurl: se modifica automáticamente tomando la ubicación seleccionada por el usuario.
+3. Cargar datos
+	a. Copia los objetos digitales de la ubicación indicada por el usuario a la carpeta "objects" ubicada en la raíz de la colección.
+	b. Copia el CSV con los metadatos de la ubicación indicada por el usuario a la carpeta  "_data" ubicada en la raíz de la colección.
+4. Generar colección
+	a. Instala Jekyll y Bundle
+	b. Ejecuta el servidor Jekyll
+	c. Abre index.html en el navegador.
 
-__Fiador__ ha sido desarrollado bajo principios de computación mínima, con el claro objetivo de que su uso requiriese de los mínimos recursos de hardware, software y conocimientos informáticos.
+
+__Fiador__ ha sido desarrollado bajo principios de computación mínima, con el objetivo de que su uso requiriese de los mínimos recursos de hardware, software y conocimientos informáticos.
 
 <a name="demo"></a>
 # Demo
