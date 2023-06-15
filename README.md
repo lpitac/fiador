@@ -33,14 +33,15 @@ Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtu
 
 El proceso dará comienzo; puede tardar hasta 3 minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
 
-> <h4 align="center">¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h4>
+> <h3>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h3>
 
 ## | Opción 2 | Exposición personalizada
-1. Prepara los __metadatatos__ de tu colección siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
-	 La forma más sencilla de utilizarla es haciendo una copia que deberás guardar en una cuenta de Google Drive. De este modo podrás editarla en línea, lo cual te resultará muy sencillo ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...)
+1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
+> La forma más sencilla de utilizarla es haciendo una copia que deberás guardar en una cuenta de Google Drive. De este modo podrás editarla en línea, lo cual te resultará muy sencillo ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...)
 2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
-3. Descarga, instala y ejecuta [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
+3. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
 
+> <h3>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h3>
 ---
 <a name="tecnologias"></a>
 # Tecnologías empleadas
