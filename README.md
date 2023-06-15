@@ -9,9 +9,10 @@
 __Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite hilar una colección de objetos digitales con sus metadatos en formato CSV para crear una exposición virtual en formato web, lista para publicar, basada en la plantilla [__Exposición__ __Virtual__](https://github.com/lpitac/exposicion).
 El sitio web resultante se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
-## Exposición Virtual
+## Cómo funciona
+__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [Jekyll](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y la plantilla "__Exposición virtual__", un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
 
-__Exposición__ __Virtual__ es un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/), una __plantilla__ basada en [Jekyll](https://jekyllrb.com/) que permite crear un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
+__Fiador__ ha sido desarrollado bajo principios de computación mínima, con el claro objetivo de que su uso requiriese de los mínimos recursos de hardware, software y conocimientos informáticos.
 
 <a name="demo"></a>
 # Demo
