@@ -14,26 +14,26 @@ __Fiador__ simplifica la creación de una exposición virtual en formato web hac
 De este modo una vez ejecutado el instalador se llevará a cabo el proceso de generación de la exposición virtual que consta de los siguientes pasos:
 1. Instalación de prerrequisitos
 	- Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe')
-	- Ejecuta el instalador rubyinstaller-devkit-3.1.3-1-x64.exe de forma desatendida sin MSYS2.
+	- Ejecuta el instalador __rubyinstaller-devkit-3.1.3-1-x64.exe__ de forma desatendida sin MSYS2.
 	- Descarga la plantilla [Exposición virtual](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
 	- Descomprime el archivo en la misma ubicación.
 2. Configuración básica
-	a. Copia el archivo de la portada indicada por el usuario a la carpeta raíz de la colección.
-	b. Modifica el valor de _featured-image_ en el archivo /_data/theme.yml , con la ruta al archivo de la portada indicada por el usuario.
-	c. Modifica el archivo _ _config.yml_ con los parámetros indicados por el usuario: 
-		• Título
-		• Descripción
-		• Autor
-		• Ruta del logotipo: se modifica automáticamente tomando la ubicación a la que se copia previamente.
-		• base: se modifica automáticamente tomando la ubicación seleccionada por el usuario.
-		• baseurl: se modifica automáticamente tomando la ubicación seleccionada por el usuario.
+	- Copia el archivo de la portada indicada por el usuario a la carpeta raíz de la colección.
+	- Modifica el valor de _featured-image_ en el archivo /_data/theme.yml , con la ruta al archivo de la portada en la carpeta raíz de la colección.
+	- Modifica en el archivo _ _config.yml_ el valor de los siguientes parámetros con los indicados por el usuario: 
+		- _title_
+		- _subtitle_
+		- _description_
+		- _author_
+		- _base_: se genera automáticamente tomando la ubicación seleccionada por el usuario.
+		- _baseurl_: se genera automáticamente tomando la ubicación seleccionada por el usuario.
 3. Cargar datos
-	a. Copia los objetos digitales de la ubicación indicada por el usuario a la carpeta "objects" ubicada en la raíz de la colección.
-	b. Copia el CSV con los metadatos de la ubicación indicada por el usuario a la carpeta  "_data" ubicada en la raíz de la colección.
+	- Copia los objetos digitales de la ubicación indicada por el usuario a la carpeta ___objects___ ubicada en la raíz de la colección.
+	- Copia el CSV con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___ ubicada en la raíz de la colección.
 4. Generar colección
-	a. Instala Jekyll y Bundle
-	b. Ejecuta el servidor Jekyll
-	c. Abre index.html en el navegador.
+	- Instala Jekyll y Bundle
+	- Ejecuta el servidor Jekyll
+	- Abre index.html en el navegador.
 
 
 __Fiador__ ha sido desarrollado bajo principios de computación mínima, con el objetivo de que su uso requiriese de los mínimos recursos de hardware, software y conocimientos informáticos.
