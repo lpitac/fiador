@@ -6,22 +6,22 @@
 <h4 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h4>
 
 # Fiador 1.0
-__Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite hilar una colección de objetos digitales con sus metadatos en formato CSV para crear una exposición virtual en formato web, lista para publicar, basada en la plantilla [__Exposición__ __Virtual__](https://github.com/lpitac/exposicion).
+__Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite hilar una colección de objetos digitales con sus metadatos en formato CSV para crear una exposición virtual en formato web, lista para publicar, basada en la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion).
 El sitio web resultante se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 __Fiador__ ha sido desarrollado bajo principios de computación mínima, con el objetivo de que su uso requiriese de los mínimos recursos de hardware, software y conocimientos informáticos.
 ## Cómo funciona
-__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [__Exposición virtual__](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
+__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
 De este modo una vez ejecutado el instalador se llevará a cabo el proceso de generación de la exposición virtual que consta de los siguientes pasos:
 1. Instalación de prerrequisitos
 	- Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe')
 	- Ejecuta el instalador __rubyinstaller-devkit-3.1.3-1-x64.exe__ de forma desatendida sin MSYS2.
-	- Descarga la plantilla [Exposición virtual](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
+	- Descarga la plantilla [___Exposición virtual___](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
 	- Descomprime el archivo en la misma ubicación.
 2. Configuración básica
 	- Copia el archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
 	- Modifica el valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
-	- Modifica en el archivo _ _config.yml_ el valor de los siguientes parámetros con los indicados por el usuario: 
+	- Modifica en el archivo ____config.yml___ el valor de los siguientes parámetros con los indicados por el usuario: 
 		- ___title___
 		- ___subtitle___
 		- ___description___
@@ -32,8 +32,8 @@ De este modo una vez ejecutado el instalador se llevará a cabo el proceso de ge
 	- Copia los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
 	- Copia el __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
 4. Generar colección
-	- Instala __Jekyll__ y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
-	- Ejecuta el servidor __Jekyll__.
+	- Instala [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
+	- Ejecuta el servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
 	- Abre ___index.html___ en el navegador.
 
 <a name="demo"></a>
