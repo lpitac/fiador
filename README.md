@@ -22,13 +22,19 @@ __Exposición__ __Virtual__ es un _fork_ de [CollectionBuilder](https://collecti
 <a name="como"></a>
 # Cómo empezar
 Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtual__: 
-1. __Instalación de prueba__ : utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
-2. __Instalación personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
+1. __Exposición de prueba__ : utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__ (podrás cambiarlos posteriormente).
+2. __Exposición personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
 
-## | Opción 1 | Instalación de prueba
-Descarga, instala y ejecuta [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
+## | Opción 1 | Exposición de prueba
+1. Descarga, instala y ejecuta [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
+2. Pulsa sobre el botón "Exposición de prueba".
+3. Indica el directorio donde deseas albergar los archivos de la exposición.
+4. Pulsa sobre el botón "Generar".
 
-## | Opción 2 | Instalación personalizada
+El proceso dará comienzo; puede tardar hasta 3 minutos en completarse. Una vez listo, se mostrará una ventana con el mensaje "Exposición creada correctamente". Al pulsar sobre el botón "Ok" se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
+¡Listo! Puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.
+
+## | Opción 2 | Exposición personalizada
 1. Prepara los __metadatatos__ de tu colección siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
 	 La forma más sencilla de utilizarla es haciendo una copia que deberás guardar en una cuenta de Google Drive. De este modo podrás editarla en línea, lo cual te resultará muy sencillo ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...)
 2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
