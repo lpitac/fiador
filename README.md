@@ -26,13 +26,14 @@ Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtu
 2. __Exposición personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
 
 ## | Opción 1 | Exposición de prueba
-1. Descarga, instala y ejecuta [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
-2. Pulsa sobre el botón "Exposición de prueba".
-3. Indica el directorio donde deseas albergar los archivos de la exposición.
-4. Pulsa sobre el botón "Generar".
+1. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
+2. Pulsa sobre el botón __"Exposición de prueba"__.
+3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
+4. Pulsa sobre el botón __"Generar"__.
 
-El proceso dará comienzo; puede tardar hasta 3 minutos en completarse. Una vez listo, se mostrará una ventana con el mensaje "Exposición creada correctamente". Al pulsar sobre el botón "Ok" se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
-¡Listo! Puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.
+El proceso dará comienzo; puede tardar hasta 3 minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
+
+<h4 align="center">¡Listo! Puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h4>
 
 ## | Opción 2 | Exposición personalizada
 1. Prepara los __metadatatos__ de tu colección siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
