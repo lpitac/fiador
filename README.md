@@ -33,7 +33,7 @@ Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtu
 
 El proceso dará comienzo; puede tardar hasta 3 minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
 
-<h4 align="center">¡Listo! Puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h4>
+> <h4 align="center">¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h4>
 
 ## | Opción 2 | Exposición personalizada
 1. Prepara los __metadatatos__ de tu colección siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
