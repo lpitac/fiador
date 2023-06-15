@@ -1,17 +1,17 @@
 <p></p>
-<h1 align="center">Exposición virtual + Fiador 1.0</h1>
+<h1 align="center">Fiador 1.0</h1>
 <img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt="">
 <h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
 <h4 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h4>
 
 # Fiador 1.0
-__Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite hilar una colección de objetos digitales con su metadatos en formato CSV para crear una exposición virtual, lista para publicar, basándose en la plantilla [__Exposición__ __Virtual__](https://github.com/lpitac/exposicion).
+__Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite hilar una colección de objetos digitales con su metadatos en formato CSV para crear una exposición virtual en formato web, lista para publicar, basándose en la plantilla [__Exposición__ __Virtual__](https://github.com/lpitac/exposicion).
+El sitio web resultante se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
-# Exposición Virtual
+## Exposición Virtual
 
 __Exposición__ __Virtual__ es un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/), una __plantilla__ basada en [Jekyll](https://jekyllrb.com/) que permite crear un sitio web estático a partir de una colección de objetos digitales y un CSV con sus metadatos.
-Este sitio web se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 <a name="demo"></a>
 # Demo
@@ -58,8 +58,6 @@ Los metadatos utilizados de ejemplo cumplen los estándares [Schema.org](http://
 ---
 <a name="licencia"></a>
 # Licencia
-__Exposición__ __Virtual__ está publicada bajo licencia [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/), a excepción de las bibliotecas incluidas en el directorio `assets/lib`, que están cubiertas por sus licencias individuales. 
-Tampoco abarca los objetos digitales utilizados como ejemplo. En cada uno de ellos se especifica, bajo el campo __"Licencia"__ la licencia concreta aplicada.
-
+__Fiador__ está publicado bajo licencia [GNU General Public License 3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 ---
 2023 - Lorena P.C.
