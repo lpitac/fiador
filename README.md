@@ -9,20 +9,21 @@
 
 # Fiador 1.0
 __Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite _hilar_ una __colección de objetos digitales__ con sus __metadatos__ en formato __CSV__ para crear una exposición virtual en formato web, lista para publicar, basada en la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion).
-El sitio web resultante se puede alojar en cualquier carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
+El sitio web resultante se puede alojar una carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con el objetivo de que su uso requiriese de los __mínimos recursos__ de __hardware__, __software__ y __conocimientos informáticos__.
 
 ## Cómo funciona
 __Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
-De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de los siguientes pasos:
+De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de cuatro fases:
 
-### 1. Instalación de prerrequisitos
-
+<details>
+<summary>1. Instalación de prerrequisitos</summary>
 - Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe').
 - Ejecuta el instalador ___rubyinstaller-devkit-3.1.3-1-x64.exe___ de forma desatendida sin MSYS2.
 - Descarga la plantilla [___Exposición virtual___](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
 - Descomprime el archivo en la misma ubicación.
+</details>
 		
 ### 2. Configuración básica
 
