@@ -55,6 +55,7 @@ El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrar
 Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado y se creará un acceso directo a __Fiador__ en el Escritorio de tu equipo.
 
 <h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
+
 <p></p>
 
 ----
