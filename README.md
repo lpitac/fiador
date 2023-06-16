@@ -13,7 +13,7 @@ El sitio web resultante se puede alojar una carpeta compartida de una red, en un
 
 __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con el objetivo de que su uso requiriese de los __mínimos recursos__ de __hardware__, __software__ y __conocimientos informáticos__.
 
-<h3 align="center"><a href="https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX">Descargar Fiador 1.0</a></h3>
+<h2 align="center"><a href="https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX">Descargar Fiador 1.0</a></h2>
 
 <a name="demo"></a>
 # Demo
@@ -25,8 +25,10 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 <a name="como"></a>
 # Cómo empezar
 Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtual__: 
-1. __Exposición de prueba__ : utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__ (podrás cambiarlos posteriormente).
-2. __Exposición personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
+1. __Exposición de prueba__
+	Utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__ (podrás cambiarlos posteriormente).
+2. __Exposición personalizada__
+	Permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
 
 ## | Opción 1 | Exposición de prueba
 1. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
