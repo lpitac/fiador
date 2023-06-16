@@ -83,7 +83,7 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 
 <a name="tecnologias"></a>
 # Tecnologías empleadas
-La generación de las páginas necesarias para construir la exposición virtual basada en __HTML__, __CSS__ y __JavaScript__ se lleva a cabo con [Jekyll](https://jekyllrb.com/).  
+La generación de las páginas necesarias para construir la exposición virtual se basa en __HTML__, __CSS__ y __JavaScript__ y se lleva a cabo con [Jekyll](https://jekyllrb.com/).  
 
 ## Tema de la plantilla 
 El diseño del sitio web hace uso de [Bootstrap](https://getbootstrap.com/) un framework de código abierto que facilita la creación de interfaces web basadas en __HTML__, __CSS__ y __JavaScript__.
