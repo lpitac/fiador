@@ -30,7 +30,7 @@ Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtu
 2. __Exposición personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
 
 ## | Opción 1 | Exposición de prueba
-1. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
+1. Descarga y ejecuta el instalador de [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
 2. Pulsa sobre el botón __"Exposición de prueba"__.
 3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
 4. Pulsa sobre el botón __"Generar"__.
@@ -49,7 +49,7 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 3. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
 4. Pulsa sobre el botón __"Exposición personalizada"__.
 3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
-4. Cubre el resto de parámetros solicitados (__título__, __subtítulo__ y __descripción__ de la exposición)
+4. Cubre el resto de parámetros solicitados (__título__, __subtítulo__ y __descripción__ de la exposición).
 5. Pulsa sobre el botón __"Generar"__.
 
 El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
@@ -63,7 +63,7 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 
 <a name="funcionamiento"></a>
 # Cómo funciona
-__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
+__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [Jekyll](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
 De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de cuatro fases:
 
 ## 1. Instalación de prerrequisitos</h3></summary>
