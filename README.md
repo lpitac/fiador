@@ -25,12 +25,12 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 ----
 <a name="como"></a>
 # Cómo empezar
-Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtual__: 
+Hay dos formas de utilizar [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) junto con la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion): 
 1. __Exposición de prueba__: utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__ (podrás cambiarlos posteriormente).
 2. __Exposición personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
 
 ## | Opción 1 | Exposición de prueba
-1. Descarga y ejecuta el instalador de [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
+1. Descarga y ejecuta el instalador de [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX).
 2. Pulsa sobre el botón __"Exposición de prueba"__.
 3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
 4. Pulsa sobre el botón __"Generar"__.
@@ -92,8 +92,8 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 		
 ## 4. Generación de la exposición
 
-- Instalación de [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
-- Ejecución del servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
+- Instalación de [Jekyll](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [Bundle](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
+- Ejecución del servidor [Jekyll](https://jekyllrb.com/docs/step-by-step/01-setup/).
 - Apertura de ___index.html___ en el navegador.
 
 <a name="tecnologias"></a>
