@@ -17,20 +17,17 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 __Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
 De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de cuatro fases:
 
-<details>
-<summary><h4>1. Instalación de prerrequisitos</h4></summary>
+### 1. Instalación de prerrequisitos</h3></summary>
 
 - Descarga de [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe).
 - Ejecución del instalador `rubyinstaller-devkit-3.1.3-1-x64.exe` de forma desatendida sin MSYS2.
 - Descarga de la plantilla [Exposición virtual](https://github.com/lpitac/coleccion-base/archive/refs/heads/main.zip) en la ubicación seleccionada por el usuario.
 - Descompresión del archivo en la misma ubicación.
 
-</details>
-<details>
-<summary><h4>2. Configuración básica</h4></summary>
+### 2. Configuración básica</h3></summary>
 		
-- Copia del archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
-- Modificación del valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
+- Copia del archivo de la __portada__ indicada por el usuario a la carpeta raíz de la exposición.
+- Modificación del valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la exposición.
 - Modificación en el archivo ____config.yml___ del valor de los siguientes parámetros con los indicados por el usuario: 
 	- ___title___
 	- ___subtitle___
@@ -39,22 +36,16 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 	- ___base___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
 	- ___baseurl___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
 			
-</details>
-<details>
-<summary><h4>3. Carga de los datos</h4></summary>
+### 3. Carga de los datos
 
-- Copia de los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
-- Copia del __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
+- Copia de los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la exposición.
+- Copia del __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la exposición.
+		
+### 4. Generarción de la colección
 
-</details>
-<details>
-<summary><h4>4. Generación de la exposición</h4></summary>		
-
-- Instalación de [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
-- Arranque el servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
+- Instalación [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
+- Ejecución del servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
 - Apertura de ___index.html___ en el navegador.
-
-</details>
 
 <a name="demo"></a>
 # Demo
