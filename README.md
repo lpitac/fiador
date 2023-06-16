@@ -13,37 +13,37 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 
 ## Cómo funciona
 __Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
-De este modo una vez ejecutado el instalador se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual, que consta de los siguientes pasos:
+De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de los siguientes pasos:
 
-### 1.Instalación de prerrequisitos
+	### 1. Instalación de prerrequisitos
 
-- Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe')
-- Ejecuta el instalador __rubyinstaller-devkit-3.1.3-1-x64.exe__ de forma desatendida sin MSYS2.
-- Descarga la plantilla [___Exposición virtual___](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
-- Descomprime el archivo en la misma ubicación.
-	
-### 2. Configuración básica
-
-- Copia el archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
-- Modifica el valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
-- Modifica en el archivo ____config.yml___ el valor de los siguientes parámetros con los indicados por el usuario: 
-	- ___title___
-	- ___subtitle___
-	- ___description___
-	- ___author___
-	- ___base___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
-	- ___baseurl___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
+	- Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe').
+	- Ejecuta el instalador ___rubyinstaller-devkit-3.1.3-1-x64.exe___ de forma desatendida sin MSYS2.
+	- Descarga la plantilla [___Exposición virtual___](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
+	- Descomprime el archivo en la misma ubicación.
 		
-### 3. Cargar datos
+	### 2. Configuración básica
 
-- Copia los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
-- Copia el __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
-	
-### 4. Generar colección
+	- Copia el archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
+	- Modifica el valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
+	- Modifica en el archivo ____config.yml___ el valor de los siguientes parámetros con los indicados por el usuario: 
+		- ___title___
+		- ___subtitle___
+		- ___description___
+		- ___author___
+		- ___base___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
+		- ___baseurl___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
+			
+	### 3. Cargar datos
 
-- Instala [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
-- Ejecuta el servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
-- Abre ___index.html___ en el navegador.
+	- Copia los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
+	- Copia el __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
+		
+	### 4. Generar colección
+
+	- Instala [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
+	- Ejecuta el servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
+	- Abre ___index.html___ en el navegador.
 
 <a name="demo"></a>
 # Demo
@@ -65,7 +65,7 @@ Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtu
 
 El proceso dará comienzo; puede tardar hasta 3 minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado y se creará un acceso directo en el Escritorio a __Fiador__.
 
-<h3>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h3>
+<h2>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h2>
 
 ## | Opción 2 | Exposición personalizada
 1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
@@ -73,8 +73,10 @@ El proceso dará comienzo; puede tardar hasta 3 minutos en completarse. Una vez 
 2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
 3. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
 
-<h3>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h3>
----
+<h2>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h2>
+
+----
+
 <a name="tecnologias"></a>
 # Tecnologías empleadas
 La generación de las páginas necesarias para construir la exposición virtual basada en __HTML__, __CSS__ y __JavaScript__ se lleva a cabo con [Jekyll](https://jekyllrb.com/).  
