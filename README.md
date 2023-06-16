@@ -5,13 +5,15 @@
 
 <h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
-<h3 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#funcionamiento">Cómo funciona</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h3>
+<h3 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#funcionamiento">Cómo funciona</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia</a></h3>
 
 # Fiador 1.0
 __Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite _hilar_ una __colección de objetos digitales__ con sus __metadatos__ en formato __CSV__ para crear una exposición virtual en formato web, lista para publicar, basada en la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion).
 El sitio web resultante se puede alojar una carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con el objetivo de que su uso requiriese de los __mínimos recursos__ de __hardware__, __software__ y __conocimientos informáticos__.
+
+<h3 align="center"><a href="https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX">Descargar Fiador 1.0</a></h3>
 
 <a name="demo"></a>
 # Demo
