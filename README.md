@@ -50,7 +50,7 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 <a name="demo"></a>
 # Demo
 <h3 align="center">Exposición virtual de demostración</h3> 
-<img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt="">
+<img src="https://github.com/lpitac/exposicion/blob/main/assets/img/captura_portada.svg" alt="">
 <h3 align="center"><a href="https://lpitac.github.io/exposicion/" target="_blank">https://lpitac.github.io/exposicion/</a></h3>
 
 ----
