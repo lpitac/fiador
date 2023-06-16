@@ -47,7 +47,7 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 3. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
 4. Pulsa sobre el botón __"Exposición personalizada"__.
 3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
-4. Cubre el resto de parámetros solicitados ( __título__, __subtítulo__ y __descripción__ de la exposición)
+4. Cubre el resto de parámetros solicitados (__título__, __subtítulo__ y __descripción__ de la exposición)
 5. Pulsa sobre el botón __"Generar"__.
 
 El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
