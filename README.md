@@ -26,9 +26,9 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 # Cómo empezar
 Hay dos formas de utilizar __Fiador__ junto con la plantilla __Exposición Virtual__: 
 1. __Exposición de prueba__
-	Utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__ (podrás cambiarlos posteriormente).
+	<p>Utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__ (podrás cambiarlos posteriormente).</p>
 2. __Exposición personalizada__
-	Permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
+	<p>Permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.</p>
 
 ## | Opción 1 | Exposición de prueba
 1. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
