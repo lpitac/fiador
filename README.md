@@ -42,7 +42,9 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 
 ## | Opción 2 | Exposición personalizada
 1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
-> La forma más sencilla de utilizarla es haciendo una copia que deberás guardar en una cuenta de Google Drive. De este modo podrás editarla en línea, lo cual te resultará muy sencillo ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...)
+> Lo más recomendable es que hagas una copia de esta plantilla y la guardes en tu cuenta de Google Drive. De este modo podrás editarla en línea, lo cual simplifica el proceso ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...).
+
+Una vez editada, descárgala en formato CSV a tu equipo.
 2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
 3. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
 
