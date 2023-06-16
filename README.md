@@ -19,10 +19,12 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 
 <details>
 <summary><h4>1. Instalación de prerrequisitos</h4></summary>
+
 - Descarga de [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe).
 - Ejecución del instalador `rubyinstaller-devkit-3.1.3-1-x64.exe` de forma desatendida sin MSYS2.
 - Descarga de la plantilla [Exposición virtual](https://github.com/lpitac/coleccion-base/archive/refs/heads/main.zip) en la ubicación seleccionada por el usuario.
 - Descompresión del archivo en la misma ubicación.
+
 </details>
 <details>
 <summary><h4>2. Configuración básica</h4></summary>
