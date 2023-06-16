@@ -18,7 +18,7 @@ __Fiador__ simplifica la creación de una exposición virtual en formato web hac
 De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de cuatro fases:
 
 <details>
-<summary>1. Instalación de prerrequisitos</summary>
+<summary><h2>1. Instalación de prerrequisitos</h2></summary>
 - Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe').
 - Ejecuta el instalador ___rubyinstaller-devkit-3.1.3-1-x64.exe___ de forma desatendida sin MSYS2.
 - Descarga la plantilla [___Exposición virtual___](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
