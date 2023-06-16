@@ -1,6 +1,6 @@
 <p></p>
 <h1 align="center">Fiador 1.0</h1>
-<img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt="">
+<img src="https://github.com/lpitac/fiador/blob/main/logo_fiador.svg" alt="">
 <h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
 <h4 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h4>
@@ -17,38 +17,38 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 
 ### 1. Instalación de prerrequisitos
 
-	- Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe').
-	- Ejecuta el instalador ___rubyinstaller-devkit-3.1.3-1-x64.exe___ de forma desatendida sin MSYS2.
-	- Descarga la plantilla [___Exposición virtual___](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
-	- Descomprime el archivo en la misma ubicación.
+- Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe').
+- Ejecuta el instalador ___rubyinstaller-devkit-3.1.3-1-x64.exe___ de forma desatendida sin MSYS2.
+- Descarga la plantilla [___Exposición virtual___](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
+- Descomprime el archivo en la misma ubicación.
 		
 ### 2. Configuración básica
 
-	- Copia el archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
-	- Modifica el valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
-	- Modifica en el archivo ____config.yml___ el valor de los siguientes parámetros con los indicados por el usuario: 
-		- ___title___
-		- ___subtitle___
-		- ___description___
-		- ___author___
-		- ___base___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
-		- ___baseurl___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
+- Copia el archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
+- Modifica el valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
+- Modifica en el archivo ____config.yml___ el valor de los siguientes parámetros con los indicados por el usuario: 
+	- ___title___
+	- ___subtitle___
+	- ___description___
+	- ___author___
+	- ___base___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
+	- ___baseurl___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
 			
 ### 3. Cargar datos
 
-	- Copia los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
-	- Copia el __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
+- Copia los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
+- Copia el __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
 		
 ### 4. Generar colección
 
-	- Instala [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
-	- Ejecuta el servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
-	- Abre ___index.html___ en el navegador.
+- Instala [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
+- Ejecuta el servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
+- Abre ___index.html___ en el navegador.
 
 <a name="demo"></a>
 # Demo
+<h3 align="center">Exposición virtual de demostración</h3> 
 <img src="https://lpitac.github.io/exposicion/assets/img/captura_portada.svg" alt="">
-<p align="center">Exposición virtual de demostración:</p> 
 <h3 align="center"><a href="https://lpitac.github.io/exposicion/" target="_blank">https://lpitac.github.io/exposicion/</a></h3>
 
 ----
