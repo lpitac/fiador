@@ -5,47 +5,13 @@
 
 <h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
-<h3 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h3>
+<h3 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#funcionamiento">Cómo funciona</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h3>
 
 # Fiador 1.0
 __Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite _hilar_ una __colección de objetos digitales__ con sus __metadatos__ en formato __CSV__ para crear una exposición virtual en formato web, lista para publicar, basada en la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion).
 El sitio web resultante se puede alojar una carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con el objetivo de que su uso requiriese de los __mínimos recursos__ de __hardware__, __software__ y __conocimientos informáticos__.
-
-## Cómo funciona
-__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
-De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de cuatro fases:
-
-### 1. Instalación de prerrequisitos</h3></summary>
-
-- Descarga de [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe).
-- Ejecución del instalador `rubyinstaller-devkit-3.1.3-1-x64.exe` de forma desatendida sin MSYS2.
-- Descarga de la plantilla [Exposición virtual](https://github.com/lpitac/coleccion-base/archive/refs/heads/main.zip) en la ubicación seleccionada por el usuario.
-- Descompresión del archivo en la misma ubicación.
-
-### 2. Configuración básica</h3></summary>
-		
-- Copia del archivo de la __portada__ indicada por el usuario a la carpeta raíz de la exposición.
-- Modificación del valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la exposición.
-- Modificación en el archivo ____config.yml___ del valor de los siguientes parámetros con los indicados por el usuario: 
-	- ___title___
-	- ___subtitle___
-	- ___description___
-	- ___author___
-	- ___base___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
-	- ___baseurl___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
-			
-### 3. Carga de los datos
-
-- Copia de los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la exposición.
-- Copia del __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la exposición.
-		
-### 4. Generarción de la colección
-
-- Instalación [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
-- Ejecución del servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
-- Apertura de ___index.html___ en el navegador.
 
 <a name="demo"></a>
 # Demo
@@ -80,6 +46,40 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 <h4>¡Listo! Ya puedes navegar a través del sitio de forma local como si estuviese publicado en Internet.</h4>
 
 ----
+<a name="funcionamiento"></a>
+# Cómo funciona
+__Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
+De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de cuatro fases:
+
+## 1. Instalación de prerrequisitos</h3></summary>
+
+- Descarga de [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe).
+- Ejecución del instalador `rubyinstaller-devkit-3.1.3-1-x64.exe` de forma desatendida sin MSYS2.
+- Descarga de la plantilla [___Exposición virtual___](https://github.com/lpitac/coleccion-base/archive/refs/heads/main.zip) en la ubicación seleccionada por el usuario.
+- Descompresión del archivo en la misma ubicación.
+
+## 2. Configuración básica</h3></summary>
+		
+- Copia del archivo de la __portada__ indicada por el usuario a la carpeta raíz de la exposición.
+- Modificación del valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la exposición.
+- Modificación en el archivo ____config.yml___ del valor de los siguientes parámetros con los indicados por el usuario: 
+	- ___title___
+	- ___subtitle___
+	- ___description___
+	- ___author___
+	- ___base___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
+	- ___baseurl___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
+			
+## 3. Carga de los datos
+
+- Copia de los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la exposición.
+- Copia del __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la exposición.
+		
+## 4. Generación de la exposición
+
+- Instalación de [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
+- Ejecución del servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
+- Apertura de ___index.html___ en el navegador.
 
 <a name="tecnologias"></a>
 # Tecnologías empleadas
