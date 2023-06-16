@@ -1,6 +1,6 @@
 <p></p>
 <h1 align="center">Fiador 1.0</h1>
-<img src="https://github.com/lpitac/fiador/blob/main/logo_fiador.svg" alt="">
+<img src="https://github.com/lpitac/fiador/blob/main/logo_fiador.svg" alt="" hight="50px">
 <h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
 <h4 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Metadatos</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia de uso</a></h4>
