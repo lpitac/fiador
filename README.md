@@ -20,36 +20,44 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 <details>
 <summary><h3>1. Instalación de prerrequisitos</h3></summary>
 
-- Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe).
-- Ejecuta el instalador `rubyinstaller-devkit-3.1.3-1-x64.exe` de forma desatendida sin MSYS2.
-- Descarga la plantilla [Exposición virtual](https://github.com/lpitac/coleccion-base/archive/refs/heads/main.zip) en la ubicación seleccionada por el usuario.
-- Descomprime el archivo en la misma ubicación.
+- Descarga de [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe).
+- Ejecución del instalador `rubyinstaller-devkit-3.1.3-1-x64.exe` de forma desatendida sin MSYS2.
+- Descarga de la plantilla [Exposición virtual](https://github.com/lpitac/coleccion-base/archive/refs/heads/main.zip) en la ubicación seleccionada por el usuario.
+- Descompresión del archivo en la misma ubicación.
 
 </details>
 
+<details>
+<summary><h3>2. Configuración básica</h3></summary>
 		
-### 2. Configuración básica
-
-- Copia el archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
-- Modifica el valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
-- Modifica en el archivo ____config.yml___ el valor de los siguientes parámetros con los indicados por el usuario: 
+- Copia del archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
+- Modificación del valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
+- Modificación en el archivo ____config.yml___ del valor de los siguientes parámetros con los indicados por el usuario: 
 	- ___title___
 	- ___subtitle___
 	- ___description___
 	- ___author___
-	- ___base___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
-	- ___baseurl___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
+	- ___base___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
+	- ___baseurl___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
 			
-### 3. Cargar datos
+</details>
 
-- Copia los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
-- Copia el __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
-		
-### 4. Generar colección
+<details>
+<summary><h3>3. Carga de los datos</h3></summary>
 
-- Instala [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
-- Ejecuta el servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
-- Abre ___index.html___ en el navegador.
+- Copia de los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
+- Copia del __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
+
+</details>
+
+<details>
+<summary><h3>4. Generación de la exposición</h3></summary>		
+
+- Instalación de [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
+- Arranque el servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
+- Apertura de ___index.html___ en el navegador.
+
+</details>
 
 <a name="demo"></a>
 # Demo
