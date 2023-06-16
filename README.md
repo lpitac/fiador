@@ -56,7 +56,9 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 
 <h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
 <p></p>
+
 ----
+
 <a name="funcionamiento"></a>
 # Cómo funciona
 __Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
