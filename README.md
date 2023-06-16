@@ -15,14 +15,14 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 __Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [__Jekyll__](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
 De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de los siguientes pasos:
 
-	### 1. Instalación de prerrequisitos
+### 1. Instalación de prerrequisitos
 
 	- Descarga [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe').
 	- Ejecuta el instalador ___rubyinstaller-devkit-3.1.3-1-x64.exe___ de forma desatendida sin MSYS2.
 	- Descarga la plantilla [___Exposición virtual___](https://github.com/lpitac/coleccion-base/archive/refs/heads.main.zip) en la ubicación seleccionada por el usuario.
 	- Descomprime el archivo en la misma ubicación.
 		
-	### 2. Configuración básica
+### 2. Configuración básica
 
 	- Copia el archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
 	- Modifica el valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
@@ -34,12 +34,12 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 		- ___base___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
 		- ___baseurl___: se genera automáticamente tomando la ubicación seleccionada por el usuario.
 			
-	### 3. Cargar datos
+### 3. Cargar datos
 
 	- Copia los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
 	- Copia el __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
 		
-	### 4. Generar colección
+### 4. Generar colección
 
 	- Instala [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
 	- Ejecuta el servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
