@@ -18,7 +18,7 @@ __Fiador__ simplifica la creación de una exposición virtual en formato web hac
 De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de cuatro fases:
 
 <details>
-<summary><h3>1. Instalación de prerrequisitos</h3></summary>
+<summary><h4>1. Instalación de prerrequisitos</h4></summary>
 
 - Descarga de [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe).
 - Ejecución del instalador `rubyinstaller-devkit-3.1.3-1-x64.exe` de forma desatendida sin MSYS2.
@@ -26,9 +26,8 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 - Descompresión del archivo en la misma ubicación.
 
 </details>
-
 <details>
-<summary><h3>2. Configuración básica</h3></summary>
+<summary><h4>2. Configuración básica</h4></summary>
 		
 - Copia del archivo de la __portada__ indicada por el usuario a la carpeta raíz de la colección.
 - Modificación del valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la colección.
@@ -41,17 +40,15 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 	- ___baseurl___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
 			
 </details>
-
 <details>
-<summary><h3>3. Carga de los datos</h3></summary>
+<summary><h4>3. Carga de los datos</h4></summary>
 
 - Copia de los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la colección.
 - Copia del __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la colección.
 
 </details>
-
 <details>
-<summary><h3>4. Generación de la exposición</h3></summary>		
+<summary><h4>4. Generación de la exposición</h4></summary>		
 
 - Instalación de [__Jekyll__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [__Bundle__](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
 - Arranque el servidor [__Jekyll__](https://jekyllrb.com/docs/step-by-step/01-setup/).
