@@ -38,17 +38,24 @@ El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrar
 
 Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado y se creará un acceso directo a __Fiador__ en el Escritorio de tu equipo.
 
-<h3>¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
+<h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
 
 ## | Opción 2 | Exposición personalizada
 1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
 > Lo más recomendable es que hagas una copia de esta plantilla y la guardes en tu cuenta de Google Drive. De este modo podrás editarla en línea, lo cual simplifica el proceso ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...).
-
-Una vez editada, descárgala en formato CSV a tu equipo.
+> Una vez editada, descárgala en formato CSV a tu equipo.
 2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
 3. Descarga y ejecuta el instalador de [Fiador 1.0.](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
+4. Pulsa sobre el botón __"Exposición personalizada"__.
+3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
+4. Cubre el resto de parámetros solicitados (título, subtítulo y descripción de la exposición)
+5. Pulsa sobre el botón __"Generar"__.
 
-<h3>¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
+El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
+
+Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado y se creará un acceso directo a __Fiador__ en el Escritorio de tu equipo.
+
+<h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
 
 ----
 <a name="funcionamiento"></a>
