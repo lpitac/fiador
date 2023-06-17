@@ -14,7 +14,7 @@ El sitio web resultante se puede alojar una carpeta compartida de una red, en un
 
 __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con el objetivo de que su uso requiera de los __mínimos recursos__ de __hardware__, __software__ y __conocimientos informáticos__.
 
-<h2 align="center"><a href="https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX">Descargar Fiador 1.0</a></h2>
+<h3 align="center"><a href="https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX">| Descargar Fiador 1.0 |</a></h3>
 
 <a name="demo"></a>
 # Demo
