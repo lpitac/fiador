@@ -8,7 +8,7 @@
 <h3 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#funcionamiento">Cómo funciona</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia</a></h3>
 
 # Fiador 1.0
-__Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite _hilar_ una __colección de objetos digitales__ con sus __metadatos__ en formato __CSV__ para crear una exposición virtual en formato web, lista para publicar, basada en la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion).
+__Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite _hilar_ una __colección de objetos digitales__ y sus __metadatos__ en formato __CSV__, para crear una exposición virtual basada en la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion).
 
 El sitio web resultante se puede alojar una carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
