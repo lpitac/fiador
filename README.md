@@ -30,6 +30,8 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 2. Editarla.
 3. Abrirla.
 
+<h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_ppal_fiador.svg"></h1>
+
 ## Generar una exposición
 Hay dos formas de utilizar [__Fiador 1.1__](https://purl.org/fiador/exe) junto con la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion): 
 1. __Exposición de prueba__: utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
