@@ -101,12 +101,12 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 	- ___base___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
 	- ___baseurl___: se genera automáticamente tomando la ubicación de la carpeta raíz seleccionada por el usuario.
 			
-## 3. Carga de los datos
+### 3. Carga de los datos
 
 - Copia de los __objetos digitales__ de la ubicación indicada por el usuario a la carpeta ___objects___, ubicada en la raíz de la exposición.
 - Copia del __CSV__ con los metadatos de la ubicación indicada por el usuario a la carpeta  ____data___, ubicada en la raíz de la exposición.
 		
-## 4. Generación de la exposición
+### 4. Generación de la exposición
 
 - Instalación de [Jekyll](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/) y [Bundle](https://www.jekyll.com.cn/tutorials/using-jekyll-with-bundler/).
 - Ejecución del servidor [Jekyll](https://jekyllrb.com/docs/step-by-step/01-setup/).
