@@ -1,5 +1,5 @@
 <p></p>
-<h1 align="center">Fiador 1.0</h1>
+<h1 align="center">Fiador 1.1</h1>
 
 <h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/portada_fiador.svg"></h1>
 
