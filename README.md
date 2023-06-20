@@ -82,14 +82,14 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 __Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [Jekyll](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
 De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de cuatro fases:
 
-## 1. Instalación de prerrequisitos</h3></summary>
+### 1. Instalación de prerrequisitos</h3></summary>
 
 - Descarga de [Ruby with Devkit 3.1.3-1-x64](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/rubyinstaller-devkit-3.1.3-1-x64.exe).
 - Ejecución del instalador `rubyinstaller-devkit-3.1.3-1-x64.exe` de forma desatendida sin MSYS2.
 - Descarga de la plantilla [___Exposición virtual___](https://github.com/lpitac/coleccion-base/archive/refs/heads/main.zip) en la ubicación seleccionada por el usuario.
 - Descompresión del archivo en la misma ubicación.
 
-## 2. Configuración básica</h3></summary>
+### 2. Configuración básica</h3></summary>
 		
 - Copia del archivo de la __portada__ indicada por el usuario a la carpeta raíz de la exposición.
 - Modificación del valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la exposición.
