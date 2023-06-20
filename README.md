@@ -37,7 +37,7 @@ Hay dos formas de utilizar [__Fiador 1.1__](https://purl.org/fiador/exe) junto c
 1. __Exposición de prueba__: utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__.
 2. __Exposición personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web. 
 
-<p align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_generar_expo.svg"></p>
+<p align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_generar_expo.svg" style="width: 50%;"></p>
 
 En ambos casos podrás editar los datos posteriormente.
 
