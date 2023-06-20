@@ -7,14 +7,14 @@
 
 <h3 align="center"><a href="#demo">Demo</a> &ensp;&bull;&ensp; <a href="#como">Cómo empezar</a> &ensp;&bull;&ensp; <a href="#funcionamiento">Cómo funciona</a> &ensp;&bull;&ensp; <a href="#tecnologias">Tecnologías empleadas</a> &ensp;&bull;&ensp; <a href="#licencia">Licencia</a></h3>
 
-# Fiador 1.0
+# Fiador 1.1
 __Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite _hilar_ una __colección de objetos digitales__ y sus __metadatos__ en formato __CSV__, para crear un sitio web basado en la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion).
 
 El sitio web resultante se puede alojar en una carpeta compartida de una red, en un servidor web básico (local o de internet) y en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con el objetivo de que su uso requiera de los __mínimos recursos__ de __hardware__, __software__ y __conocimientos informáticos__.
 
-<h3 align="center"><a href="https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX">| Descargar Fiador 1.0 |</a></h3>
+<h3 align="center"><a href="https://purl.archive.org/purl/fiador/exe">| Descargar Fiador 1.1 |</a></h3>
 
 <a name="demo"></a>
 # Demo
@@ -25,12 +25,12 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 ----
 <a name="como"></a>
 # Cómo empezar
-Hay dos formas de utilizar [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) junto con la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion): 
+Hay dos formas de utilizar [__Fiador 1.1__](https://purl.archive.org/purl/fiador/exe) junto con la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion): 
 1. __Exposición de prueba__: utiliza __los objetos digitales__ y el __CSV__ con sus metadatos incluidos en la __plantilla__ (podrás cambiarlos posteriormente).
 2. __Exposición personalizada__: permite __definir los objetos digitales y el CSV__ que se utilizarán para generar el sitio web.
 
 ## | Opción 1 | Exposición de prueba
-1. Descarga y ejecuta el instalador de [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX).
+1. Descarga y ejecuta el instalador de [__Fiador 1.1__](https://purl.archive.org/purl/fiador/exe).
 2. Pulsa sobre el botón __"Exposición de prueba"__.
 3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
 4. Pulsa sobre el botón __"Generar"__.
@@ -46,7 +46,7 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
 > Lo más recomendable es que hagas una __copia de esta plantilla__ y la guardes en tu cuenta de __Google Drive__. De este modo podrás editarla en línea, lo cual simplifica el proceso ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...). Una vez editada, descárgala en formato __CSV__ a tu equipo.
 2. Reune en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
-3. Descarga y ejecuta el instalador de [__Fiador 1.0__](https://udcgal-my.sharepoint.com/:u:/g/personal/l_pitac_udc_es/EZV8a3fDB11MjyJX_hW9j4kBonbKsP6gluycy_odu1MKQA?e=jGuWOX) 
+3. Descarga y ejecuta el instalador de [__Fiador 1.1__](https://purl.archive.org/purl/fiador/exe) 
 4. Pulsa sobre el botón __"Exposición personalizada"__.
 3. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
 4. Cubre el resto de parámetros solicitados (__título__, __subtítulo__ y __descripción__ de la exposición).
