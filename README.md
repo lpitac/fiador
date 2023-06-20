@@ -46,7 +46,7 @@ En ambos casos podrás editar los datos posteriormente.
 
 El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
 
-Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado y se creará un acceso directo a __Fiador__ en el Escritorio de tu equipo.
+Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
 
 > <h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
 
@@ -65,7 +65,7 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 
 El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
 
-Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado y se creará un acceso directo a __Fiador__ en el Escritorio de tu equipo.
+Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
 
 > <h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
 
@@ -88,7 +88,7 @@ De este modo una vez ejecutado el instalador __se llevará a cabo automáticamen
 		
 - Copia del archivo de la __portada__ indicada por el usuario a la carpeta raíz de la exposición.
 - Modificación del valor de ___featured-image___ en el archivo ___/_data/theme.yml___, con la ruta al archivo de la portada en la carpeta raíz de la exposición.
-- Modificación en el archivo ____config.yml___ del valor de los siguientes parámetros con los indicados por el usuario: 
+- Modificación en el archivo ____config.yml___ del valor de los siguientes parámetros por los indicados por el usuario: 
 	- ___title___
 	- ___subtitle___
 	- ___description___
