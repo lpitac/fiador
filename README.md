@@ -39,7 +39,7 @@ Hay dos formas de utilizar [__Fiador 1.1__](https://purl.org/fiador/exe) junto c
 
 En ambos casos podrás editar los datos posteriormente.
 
-<p align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_generar_expo.svg"></p>
+<p align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_generar_expo.svg" style="width: 70%;"></p>
 
 ### | Opción 1 | Exposición de prueba
 1. Descarga y ejecuta [__Fiador 1.1__](https://purl.org/fiador/exe).
