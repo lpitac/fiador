@@ -62,9 +62,9 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 3. Descarga y ejecuta [__Fiador 1.1__](https://purl.org/fiador/exe) 
 4. Pulsa sobre el botón __"Generar exposición"__.
 5. Pulsa sobre el botón __"Exposición personalizada"__.
-	- Indica el __directorio__ donde deseas albergar los archivos de la exposición.
-	- Indica el __directorio__ donde se encuentra el __CSV__ con los __metadatos__.
-	- Indica el __directorio__ donde se encuentran los __objetos digitales__.
+	- Selecciona el __directorio__ donde deseas albergar los archivos de la exposición.
+	- Selecciona el __directorio__ donde se encuentra el __CSV__ con los __metadatos__.
+	- Selecciona el __directorio__ donde se encuentran los __objetos digitales__.
 	- Cubre el resto de parámetros solicitados (__título__, __descripción__, ...).
 8. Pulsa sobre el botón __"Generar"__.
 
