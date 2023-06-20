@@ -1,5 +1,6 @@
 <p></p>
-<h1 style="text-align: center; color: blue;">Fiador 1.1</h1>
+
+<h1 align="center" style="color: blue;">Fiador 1.1</h1>
 
 <h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/portada_fiador.svg"></h1>
 
