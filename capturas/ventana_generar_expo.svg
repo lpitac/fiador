@@ -2,11 +2,11 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="299.69312mm"
-   height="146.48679mm"
-   viewBox="0 0 299.69312 146.48679"
+   width="842.42242"
+   height="411.76703"
+   viewBox="0 0 222.89093 108.94669"
    version="1.1"
-   id="svg278"
+   id="svg256"
    xml:space="preserve"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    sodipodi:docname="ventana_generar_expo.svg"
@@ -15,7 +15,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview280"
+     id="namedview258"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -26,21 +26,21 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.46769781"
-     inkscape:cx="723.75793"
-     inkscape:cy="270.47379"
-     inkscape:window-width="711"
-     inkscape:window-height="728"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:cx="780.41845"
+     inkscape:cy="106.90664"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
-     id="defs275" /><g
+     id="defs253" /><g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(1.0637004,-78.933746)"><image
-       width="299.69312"
-       height="146.48679"
+     transform="translate(15.772272,-122.49375)"><image
+       width="222.89093"
+       height="108.94669"
        preserveAspectRatio="none"
        style="image-rendering:optimizeQuality"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAb4AAADaCAIAAABW/bBGAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
@@ -167,6 +167,6 @@ oYF0QoZ5QcCI+MewGD4HRsI/hqMB0gkAUA3SCQBQDdIJAFAN0gkAUA3SCQBQDdIJAFAN0gkAUA3S
 CQBQDdIJAFAN0gkAUA3SCQBQDdIJAFAN0gkAUA3SCQBQDdIJAFAN0gkAUA3SCQBQDdIJAFCNl04A
 AKjghhv+H08GWo6D2BZdAAAAAElFTkSuQmCC
 "
-       id="image407"
-       x="-1.0637004"
-       y="78.933746" /></g></svg>
+       id="image385"
+       x="-15.772272"
+       y="122.49375" /></g></svg>
