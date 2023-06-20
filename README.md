@@ -58,7 +58,7 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 
 ### | Opción 2 | Exposición personalizada
 1. Prepara los __metadatatos__ de tu colección en formato __CSV__ siguiendo la __plantilla__ __de__ __prueba__ publicada en [Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing). 
-> Lo más recomendable es que hagas una __copia de esta plantilla__ y la guardes en tu cuenta de __Google Drive__. De este modo podrás editarla en línea, lo cual simplifica el proceso ya que se ha optimizado para facilitar su uso (campos desplegables, relleno automático, ...). Una vez editada, descárgala en formato __CSV__ a tu equipo.
+> Wiki - ¿Cómo utilizar la  __plantilla__ __de__ __prueba ?
 2. Reúne en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
 3. Descarga y ejecuta [__Fiador 1.1__](https://purl.org/fiador/exe) 
 4. Pulsa sobre el botón __"Generar exposición"__.
