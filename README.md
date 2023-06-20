@@ -61,6 +61,9 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 
 <h3 align="center"><a href="https://github.com/lpitac/fiador/wiki/Metadatos">| Wiki - ¿Cómo utilizar la plantilla de prueba |</a></h3>
 
+<button onclick="window.location.href = 'https://github.com/lpitac/fiador/wiki/Metadatos';">Wiki - ¿Cómo utilizar la plantilla de prueba</button>
+
+
 2. Reúne en una carpeta todos los __objetos__ __digitales__ __descritos__ en el __CSV__.
 3. Descarga y ejecuta [__Fiador 1.1__](https://purl.org/fiador/exe) 
 4. Pulsa sobre el botón __"Generar exposición"__.
