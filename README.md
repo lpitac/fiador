@@ -63,7 +63,7 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 4. Pulsa sobre el botón __"Generar exposición"__.
 5. Pulsa sobre el botón __"Exposición personalizada"__.
 6. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
-7. Cubre el resto de parámetros solicitados (__título__, __subtítulo__ y __descripción__ de la exposición).
+7. Cubre el resto de parámetros solicitados (__título__, __descripción__, ...).
 8. Pulsa sobre el botón __"Generar"__.
 
 El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
@@ -76,7 +76,7 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 ----
 
 <a name="funcionamiento"></a>
-# Cómo funciona
+# Cómo funciona Fiador
 __Fiador__ simplifica la creación de una exposición virtual en formato web haciendo uso de [Jekyll](https://jekyllrb.com/), un generador de sitios webs estáticos escrito en [Ruby](https://www.ruby-lang.org/es/), y de la plantilla [___Exposición virtual___](https://github.com/lpitac/exposicion), un _fork_ de [CollectionBuilder](https://collectionbuilder.github.io/).
 De este modo una vez ejecutado el instalador __se llevará a cabo automáticamente todo el proceso de generación de la exposición virtual__, que consta de cuatro fases:
 
