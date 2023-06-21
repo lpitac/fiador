@@ -19,7 +19,7 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 <a name="demo"></a>
 # Demo
 <h3 align="center">Exposición virtual de demostración</h3> 
-<img src="https://github.com/lpitac/exposicion/blob/main/assets/img/captura_portada.svg" alt="">
+<img src="https://github.com/lpitac/exposicion/blob/main/assets/img/captura_portada.png" alt="">
 <h3 align="center"><a href="https://lpitac.github.io/exposicion/" target="_blank">https://lpitac.github.io/exposicion/</a></h3>
 
 ----
@@ -30,7 +30,7 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 2. Editarla.
 3. Abrirla.
 
-<h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_ppal_fiador.svg"></h1>
+<h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_ppal_fiador.png"></h1>
 
 ## Generar una exposición
 Hay dos formas de utilizar [__Fiador 1.1__](https://purl.org/fiador/exe) junto con la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion): 
