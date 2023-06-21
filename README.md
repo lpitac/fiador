@@ -50,6 +50,8 @@ En ambos casos podrás editar los datos posteriormente.
 
 El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
 
+<p align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_ok.png"></p>
+
 Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
 
 > <h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
