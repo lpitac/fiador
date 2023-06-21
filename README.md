@@ -19,7 +19,7 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 <a name="demo"></a>
 # Demo
 <h3 align="center">Exposición virtual de demostración</h3> 
-<img src="https://github.com/lpitac/exposicion/blob/main/assets/img/captura_portada.png" alt="">
+<img src="https://github.com/lpitac/fiador/blob/main/capturas/captura_portada.png" alt="">
 <h3 align="center"><a href="https://lpitac.github.io/exposicion/" target="_blank">https://lpitac.github.io/exposicion/</a></h3>
 
 ----
