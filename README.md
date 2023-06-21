@@ -48,11 +48,11 @@ En ambos casos podrás editar los datos posteriormente.
 4. Indica el __directorio__ donde deseas albergar los archivos de la exposición.
 5. Pulsa sobre el botón __"Generar"__.
 
-El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
+El proceso puede tardar __varios minutos__ en completarse. Una vez listo, se mostrará el mensaje __"¡Exposición generada correctamente!"__. 
 
 <p align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_ok.png"></p>
 
-Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
+Al pulsar sobre el botón __"Ok"__ la exposición se abrirá automáticamente en una ventana del navegador.
 
 > <h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
 
@@ -70,9 +70,11 @@ Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del n
 	- Cubre el resto de parámetros solicitados (__título__, __descripción__, ...).
 8. Pulsa sobre el botón __"Generar"__.
 
-El proceso puede tardar varios minutos en completarse. Una vez listo, se mostrará el mensaje __"Exposición creada correctamente"__. 
+El proceso puede tardar __varios minutos__ en completarse. Una vez listo, se mostrará el mensaje __"¡Exposición generada correctamente!"__. 
 
-Al pulsar sobre el botón __"Ok"__ se abrirá automáticamente una ventana del navegador predeterminado en la página de inicio del sitio web generado.
+<p align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/ventana_ok.png"></p>
+
+Al pulsar sobre el botón __"Ok"__ la exposición se abrirá automáticamente en una ventana del navegador.
 
 > <h3 align="center">¡Listo! Ya puedes navegar a través de la exposición web generada.</h3>
 
