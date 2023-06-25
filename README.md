@@ -1,7 +1,7 @@
 <p></p>
 <h1 align="center">Fiador</h1>
 
-<h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/portada_fiador.svg"></h1>
+<h1 align="center"><img src="https://github.com/lpitac/fiador/blob/capturas/main/portada_fiador.svg"></h1>
 
 > <h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
@@ -10,16 +10,12 @@
 # Fiador
 __Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite _hilar_ una __colección de objetos digitales__ y sus __metadatos__ en formato __CSV__, para crear un sitio web basado en la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion).
 
-El sitio web resultante se puede alojar en un servidor web básico (local o de internet) o en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/)).
+El sitio web resultante se puede alojar en un servidor web básico (local o de internet) o en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
 
 __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con el objetivo de que su uso requiera de los __mínimos recursos__ de __hardware__, __software__ y __conocimientos informáticos__.
 
-<div align="center">
-  <h3>
-    <img src="https://github.com/lpitac/fiador/blob/main/iconos/descargar.png" alt="Icono de Descargar" style="vertical-align: middle;">
-    <a href="https://purl.org/fiador/exe">Descargar Fiador</a>
-  </h3>
-</div>
+<h3 align="center"><a href="https://purl.org/fiador/exe">| Descargar Fiador |</a></h3>  
+<p align="center">(v. 1.0)</p>
 
 <a name="demo"></a>
 # Demo

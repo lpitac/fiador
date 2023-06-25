@@ -1,6 +1,6 @@
 ##########################
 #                        #    
-#      Fiador 1.1        #
+#       Fiador 1.0       #
 #   2023 - Lorena P.C.   # 
 #                        # 
 ##########################
@@ -34,7 +34,7 @@ def main():
 
     while True:
         event, _ = window.read()
-        if event in (sg.WINDOW_CLOSED, 'boton_cancelar_0'):
+        if event in (sg.WINDOW_CLOSED, 'boton_cancelar_0'): # Cerrar la ventana si se pulsa el botón cancelar
             break
         # BOTÓN "Generar exposición"
         elif event == 'boton_generar_0':
@@ -50,7 +50,7 @@ def main():
 
             while True:
                 event, _ = window.read()
-                if event in (sg.WINDOW_CLOSED, 'boton_cancelar_1'):
+                if event in (sg.WINDOW_CLOSED, 'boton_cancelar_1'):  
                     break
                 # BOTÓN "De prueba"
                 elif event == 'boton_prueba':
@@ -65,15 +65,16 @@ def main():
                         [sg.Text('Una vez finalizado, la exposición se abrirá automáticamente en una ventana del navegador.', size=(50, 2), justification='center')],
                         [sg.Text('Directorio de instalación:', text_color='darkblue')],
                         [sg.InputText(), sg.FolderBrowse('Examinar', key='directorio_instalacion')],
-                        [sg.Button('Generar', key='boton_generar_1'), sg.Cancel('Cancelar', key='boton_cancelar_2')],
-                        [sg.Text('', key='texto_estado')]  # Agregar elemento de texto para el estado
+                        [sg.Button('Generar', key='boton_generar_1', pad=((5, 10), (10, 10))), sg.Cancel('Cancelar', key='boton_cancelar_2', pad=((0, 0), (10, 10)))],
+                        [sg.ProgressBar(100, orientation='h', s=(32,20), k='progress_bar', bar_color=('#082567', 'white'), visible=False), sg.Text('', key='porcentaje', visible=False)],
+                        [sg.Text('', key='texto_estado', visible=False)]  # Agregar elemento de texto para el estado
                     ]
 
                     window = sg.Window('Fiador - Generar exposición de prueba', layout) # Título de la ventana
 
                     while True:
                         event, values = window.read()
-                        if event in (sg.WINDOW_CLOSED, 'boton_cancelar_2'):
+                        if event in (sg.WINDOW_CLOSED, 'boton_cancelar_2'): # Cerrar la ventana si se pulsa el botón cancelar
                             window.close()
                             break
                         elif event == 'boton_generar_1':
@@ -81,6 +82,7 @@ def main():
                                 sg.popup('Debe seleccionar el directorio de instalación.')
                                 continue
                             directorio_instalacion = values['directorio_instalacion']
+                            # Crear la ruta completa de la carpeta raíz
                             carpeta_raiz = os.path.join(directorio_instalacion, 'exposicion-main')
 
                             # 1. INSTALAR PRERREQUISITOS
@@ -91,13 +93,20 @@ def main():
                             instalador = 'rubyinstaller-devkit-3.1.3-1-x64.exe'
 
                             # Descargar Ruby with Devkit 3.1.3-1-x64
-                            window['texto_estado'].update('1/4: Descargando Ruby with Devkit 3.1.3-1-x64...')
-                            window.refresh()  # Actualizar la ventana para mostrar el texto anterior
-                            urllib.request.urlretrieve(url_ruby, instalador)
+                            window['progress_bar'].update(visible=True) # Hacer visible la barra de progreso
+                            window['progress_bar'].update(10) # Actualizar el progreso
+                            window['porcentaje'].update(visible=True) # Hacer visible el porcentaje de progreso
+                            window['porcentaje'].update('10%') # Actualizar el porcentaje
+                            window['texto_estado'].update(visible=True) # Hacer visible el texto de estado
+                            window['texto_estado'].update('Descargando Ruby with Devkit 3.1.3-1-x64...')
+                            window.refresh()  # Actualizar la ventana 
+                            urllib.request.urlretrieve(url_ruby, instalador) # Descargar ruby de la url especificada con el nombre "instalador". 
 
                             # Instalación desatendida de Ruby with Devkit 3.1.3-1-x64 sin MSYS2
-                            window['texto_estado'].update('2/4: Instalando Ruby with Devkit 3.1.3-1-x64...')
-                            window.refresh()  # Actualizar la ventana para mostrar el texto anterior
+                            window['progress_bar'].update(30) # Actualizar el progreso
+                            window['porcentaje'].update('30%') # Actualizar el porcentaje                           
+                            window['texto_estado'].update('Instalando Ruby with Devkit 3.1.3-1-x64...')
+                            window.refresh()  # Actualizar la ventana
                             subprocess.call([f'{instalador}', '/tasks="assocfiles,modpath"', '/verysilent', '/norestart', '/no-ridk'])
 
                             # Eliminar archivo de instalación de Ruby with Devkit 3.1.3-1-x64
@@ -114,8 +123,10 @@ def main():
                             ruta_descarga = os.path.join(directorio_instalacion, nombre_fichero)
 
                             # Descargar la plantilla
-                            window['texto_estado'].update('3/4: Descargando colección base...')
-                            window.refresh()
+                            window['progress_bar'].update(40) # Actualizar el progreso
+                            window['porcentaje'].update('40%') # Actualizar el porcentaje                          
+                            window['texto_estado'].update('Descargando plantilla "Exposición virtual"...')
+                            window.refresh()  # Actualizar la ventana
                             urllib.request.urlretrieve(url_plantilla, ruta_descarga)
 
                             # Descomprimir el archivo descargado en la misma ubicación
@@ -141,11 +152,13 @@ def main():
                             with open(ruta_config, 'w') as f:
                                 yaml.dump(config, f)
 
-                            # 4. GENERAR COLECCIÓN
-                            window['texto_estado'].update('4/4: Generando colección...')
-                            window.refresh()  # Actualizar la ventana para mostrar el texto anterior
+                            # 4. GENERAR COLECCIÓN                            
                             process = None  # Declarar la variable process
                             os.chdir(carpeta_raiz) # Cambiar al directorio raíz de la colección
+                            window['progress_bar'].update(50) # Actualizar el progreso
+                            window['porcentaje'].update('50%') # Actualizar el porcentaje                          
+                            window['texto_estado'].update('Generando exposición...')
+                            window.refresh()  # Actualizar la ventana
 
                             try:
                                 # Instalar Jekyll (generador de sitios estáticos) y Bundler (gestor de dependencias de Ruby)
@@ -155,41 +168,30 @@ def main():
                                 process = subprocess.Popen(['bundle.bat', 'exec', 'jekyll', 'serve'], stdout=subprocess.PIPE, universal_newlines=True, creationflags=subprocess.CREATE_NO_WINDOW)
 
                                 while True:
-                                    output = process.stdout.readline().strip()
-                                    if output == '' and process.poll() is not None:
+                                    output = process.stdout.readline().strip() # Leer una línea de salida del proceso y guardar su contenido en la variable "output"
+                                    if output == '' and process.poll() is not None: #  Verificar si la variable "output" está vacía y si el proceso ha terminado.
                                         break
+                                    if "Generating..." in output:
+                                        window['progress_bar'].update(60) # Actualizar el progreso
+                                        window['porcentaje'].update('60%') # Actualizar el porcentaje
+                                        window.refresh()  # Actualizar la ventana para mostrar el texto anterior
+                                    if "Server address: " in output:
+                                        window['progress_bar'].update(90) # Actualizar el progreso
+                                        window['porcentaje'].update('90%') # Actualizar el porcentaje
+                                        window.refresh()  # Actualizar la ventana para mostrar el texto anterior
                                     if "Server running... press ctrl-c to stop." in output:
+                                        window['progress_bar'].update(100)
+                                        window['porcentaje'].update('100%') # Actualizar el porcentaje
+                                        window['texto_estado'].update('') # Actualizar el texto de estado (dejarlo en blanco)
                                         sg.popup('¡Exposición generada correctamente!')
 
-                                        # Obtener la ruta completa a los archivos index.html y Fiador.exe
-                                        ruta_index_html = os.path.join(carpeta_raiz, '_site', 'index.html')
-                                        ruta_fiador_exe = os.path.join(carpeta_raiz, 'Fiador.exe')
-
-                                        # Obtener la carpeta del escritorio
-                                        ruta_escritorio = shell.SHGetFolderPath(0, shellcon.CSIDL_DESKTOP, None, 0)
-
-                                        # Crear un acceso directo al archivo index.html en el escritorio
-                                        shortcut_index = win32com.client.Dispatch("WScript.Shell").CreateShortcut(os.path.join(ruta_escritorio, "Exposición virtual.lnk"))
-                                        shortcut_index.TargetPath = ruta_index_html
-                                        shortcut_index.Save()
-
-                                        # Crear un acceso directo a Fiador.exe en el escritorio
-                                        shortcut_fiador = win32com.client.Dispatch("WScript.Shell").CreateShortcut(os.path.join(ruta_escritorio, "Fiador.lnk"))
-                                        shortcut_fiador.TargetPath = ruta_fiador_exe
-                                        shortcut_fiador.Save()
-
-                                        # Abrir en el navegador index.html
-                                        webbrowser.open_new_tab(carpeta_raiz + '/_site/index.html')
+                                        # Abrir index.html en el navegador 
+                                        webbrowser.open_new_tab('http://127.0.0.1:4000' + baseurl + '/index.html')
                                         break
                             except subprocess.CalledProcessError as e:
                                 sg.popup(f'Error al generar colección: {e}')
-                            finally:
-                                if process is not None and process.poll() is None:
-                                    # Terminar el proceso bundle exec jekyll serve
-                                    process.terminate()
-                                # Terminar el proceso ruby.exe
-                                subprocess.run(['taskkill', '/im', 'ruby.exe', '/f'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
+                            
+                            # Cerrar la ventana
                             window.close()
                             break
                 # BOTÓN "Personalizada"
@@ -215,12 +217,13 @@ def main():
                         [sg.InputText(key='descripcion')],
                         [sg.Text('Autor')],
                         [sg.InputText(key='autor')],
-                        [sg.Button('Generar', key='boton_generar_2'), sg.Cancel('Cancelar', key='boton_cancelar_3')],
                         [sg.Text('* Campo obligatorio')],
-                        [sg.Text('', key='texto_estado')]  # Agregar elemento de texto para el estado
+                        [sg.Button('Generar', key='boton_generar_2', pad=((5, 10), (10, 10))), sg.Cancel('Cancelar', key='boton_cancelar_3', pad=((0, 0), (10, 10)))],
+                        [sg.ProgressBar(100, orientation='h', s=(32,20), k='progress_bar', bar_color=('#082567', 'white'), visible=False), sg.Text('', key='porcentaje', visible=False)],
+                        [sg.Text('', key='texto_estado', visible=False)]  
                     ]
 
-                    window = sg.Window('Fiador - Exposición personalizada', layout) # Título de la ventana
+                    window = sg.Window('Fiador - Generar exposición personalizada', layout) 
 
                     while True:
                         event, values = window.read()
@@ -242,13 +245,20 @@ def main():
                             instalador = 'rubyinstaller-devkit-3.1.3-1-x64.exe'
 
                             # Descargar Ruby with Devkit 3.1.3-1-x64
-                            window['texto_estado'].update('1/4: Descargando Ruby with Devkit 3.1.3-1-x64...')
-                            window.refresh()  # Actualizar la ventana para mostrar el texto anterior
+                            window['progress_bar'].update(visible=True) # Hacer visible la barra de progreso
+                            window['progress_bar'].update(10) # Actualizar el progreso
+                            window['porcentaje'].update(visible=True) # Hacer visible el porcentaje de progreso
+                            window['porcentaje'].update('10%') # Actualizar el porcentaje
+                            window['texto_estado'].update(visible=True) # Hacer visible el texto de estado
+                            window['texto_estado'].update('Descargando Ruby with Devkit 3.1.3-1-x64...')
+                            window.refresh()  # Actualizar la ventana
                             urllib.request.urlretrieve(url_ruby, instalador)
 
                             # Instalación desatendida de Ruby with Devkit 3.1.3-1-x64 sin MSYS2
-                            window['texto_estado'].update('2/4: Instalando Ruby with Devkit 3.1.3-1-x64...')
-                            window.refresh()  # Actualizar la ventana para mostrar el texto anterior
+                            window['progress_bar'].update(30)
+                            window['porcentaje'].update('30%')                           
+                            window['texto_estado'].update('Instalando Ruby with Devkit 3.1.3-1-x64...')
+                            window.refresh()  
                             subprocess.call([f'{instalador}', '/tasks="assocfiles,modpath"', '/verysilent', '/norestart', '/no-ridk'])
 
                             # Eliminar archivo de instalación de Ruby with Devkit 3.1.3-1-x64
@@ -265,7 +275,9 @@ def main():
                             ruta_descarga = os.path.join(directorio_instalacion, nombre_fichero)
 
                             # Descargar la plantilla
-                            window['texto_estado'].update('3/4: Descargando colección base...')
+                            window['progress_bar'].update(40)
+                            window['porcentaje'].update('40%')                           
+                            window['texto_estado'].update('Descargando plantilla "Exposición virtual"...')
                             window.refresh()
                             urllib.request.urlretrieve(url_plantilla, ruta_descarga)
 
@@ -304,15 +316,8 @@ def main():
                             with open(config_path, 'r') as f:
                                 config = yaml.safe_load(f)
                             
-                            # Obtener el valor introducido por el usuario en el campo "titulo"
-                            titulo = values['titulo']
-
-                            # Verificar si se introdujo un valor en el campo "titulo"
-                            if titulo.strip():
-                                # Asignar el valor del campo "titulo" a "title"
-                                config['title'] = titulo
-                        
                             # Modificar las variables con los valores introducidos por el usuario
+                            config['title'] = values['titulo']
                             config['tagline'] = values['subtitulo']
                             config['description'] = values['descripcion']
                             config['author'] = values['autor']
@@ -348,38 +353,49 @@ def main():
                                     ruta_archivo_destino = os.path.join(ruta_destino_objetos, archivo)
                                     shutil.copy2(ruta_archivo_origen, ruta_archivo_destino)
                             
-                            # REGENERAR COLECCIÓN
+                            # GENERAR COLECCIÓN
                             process = None  # Declarar la variable process
                             os.chdir(carpeta_raiz)  # Cambiar a la carpeta raíz de la colección
-                            window['texto_estado'].update('Guardando los cambios...')
+                            window['progress_bar'].update(50)
+                            window['porcentaje'].update('50%')                           
+                            window['texto_estado'].update('Generando exposición...')
                             window.refresh()  # Actualizar la ventana para mostrar el texto anterior
                            
                             try:
-                                # Compilar la colección (ejecutar rake deploy)
-                                process = subprocess.Popen(['rake.bat', 'deploy'], stdout=subprocess.PIPE, universal_newlines=True, creationflags=subprocess.CREATE_NO_WINDOW)
+                                # Instalar Jekyll (generador de sitios estáticos) y Bundler (gestor de dependencias de Ruby)
+                                subprocess.call(['gem.cmd', 'install', 'jekyll', 'bundler'], stdout=subprocess.PIPE, universal_newlines=True, creationflags=subprocess.CREATE_NO_WINDOW)
+
+                                # Ejecutar el servidor Jekyll
+                                process = subprocess.Popen(['bundle.bat', 'exec', 'jekyll', 'serve'], stdout=subprocess.PIPE, universal_newlines=True, creationflags=subprocess.CREATE_NO_WINDOW)
 
                                 while True:
                                   output = process.stdout.readline().strip()
                                   if output == '' and process.poll() is not None:
                                       break
-                                  if "Auto-regeneration: " in output:
-                                      sg.popup('Cambios guardados correctamente')
+                                  if "Generating..." in output:
+                                      window['progress_bar'].update(60)
+                                      window['porcentaje'].update('60%')
+                                      window.refresh()  
+                                  if "Server address: " in output:
+                                      window['progress_bar'].update(90)
+                                      window['porcentaje'].update('90%')
+                                      window.refresh()  
+                                  if "Server running... press ctrl-c to stop." in output:
+                                      window['progress_bar'].update(100)
+                                      window['porcentaje'].update('100%')
+                                      window['texto_estado'].update('')
+                                      sg.popup('Exposición generada correctamente')
+                                      
                                       # Abrir en el navegador index.html
-                                      webbrowser.open_new_tab(carpeta_raiz + '/_site/index.html')
+                                      webbrowser.open_new_tab('http://127.0.0.1:4000' + baseurl + '/index.html')
                                       break   
 
                             except subprocess.CalledProcessError as e:
                                 sg.popup_error(f'Error al generar colección: {e}')
-                            finally:
-                                if process is not None and process.poll() is None:
-                                    # Terminar el proceso rake deploy
-                                    process.terminate()
-                                # Terminar el proceso ruby.exe
-                                subprocess.run(['taskkill', '/im', 'ruby.exe', '/f'], creationflags=subprocess.CREATE_NO_WINDOW)
-
-                                # Cerrar la ventana
-                                window.close()
-               
+                            
+                            # Cerrar la ventana
+                            window.close()
+                            break
         #BOTÓN "Editar exposición"
         elif event == 'boton_editar': 
             # Cerrar la ventana actual
@@ -403,11 +419,12 @@ def main():
                 [sg.InputText(key='descripcion')],
                 [sg.Text('Autor')],
                 [sg.InputText(key='autor')],
-                [sg.Button('Guardar', key='boton_guardar'), sg.Cancel('Cancelar', key='boton_cancelar_4')],
-                [sg.Text('', key='texto_estado')]  # Agregar elemento de texto para el estado
+                [sg.Button('Guardar', key='boton_guardar', pad=((5, 10), (10, 10))), sg.Cancel('Cancelar', key='boton_cancelar_4', pad=((0, 0), (10, 10)))],
+                [sg.ProgressBar(100, orientation='h', s=(30,20), k='progress_bar', bar_color=('#082567', 'white'), visible=False), sg.Text('', key='porcentaje', visible=False)],
+                [sg.Text('', key='texto_estado', visible=False)]  
             ]
-
-            window = sg.Window('Fiador - Editar exposición', layout) # Título de la ventana
+                
+            window = sg.Window('Fiador - Editar exposición', layout) 
 
             while True:
                 event, values = window.read()
@@ -415,8 +432,13 @@ def main():
                     window.close()
                     break
                 elif event == 'boton_guardar':
-                    # Obtener la ruta de la carpeta raiz de la exposición
+                    # Obtener la ruta de la carpeta raiz de la exposición                   
                     carpeta_raiz = values['carpeta_raiz']
+                    baseurl = (carpeta_raiz).replace(os.path.abspath(''), '')[1:].replace('\\', '/').lstrip(':') + '/_site'
+                    if not values['carpeta_raiz']:
+                        sg.popup('Debe seleccionar el directorio raiz de la exposición.')
+                        continue
+                    
                 if values['portada']:
                     # Definir ubicación origen y nombre de la portada
                     ruta_origen_portada = values['portada']       
@@ -448,16 +470,33 @@ def main():
                 
                 # Obtener el valor introducido por el usuario en el campo "titulo"
                 titulo = values['titulo']
-
                 # Verificar si se introdujo un valor en el campo "titulo"
                 if titulo.strip():
                     # Asignar el valor del campo "titulo" a "title"
                     config['title'] = titulo
-            
-                # Modificar las variables con los valores introducidos por el usuario
-                config['tagline'] = values['subtitulo']
-                config['description'] = values['descripcion']
-                config['author'] = values['autor']
+                
+                # Obtener el valor introducido por el usuario en el campo "subtitulo"
+                subtitulo = values['subtitulo']
+                # Verificar si se introdujo un valor en el campo "subtitulo"
+                if subtitulo.strip():
+                    # Asignar el valor del campo "subtitulo" a "tagline"
+                    config['tagline'] = subtitulo
+                
+                # Obtener el valor introducido por el usuario en el campo "descripcion"
+                descripcion = values['descripcion']
+                # Verificar si se introdujo un valor en el campo "descripcion"
+                if descripcion.strip():
+                    # Asignar el valor del campo "descripcion" a "description"
+                    config['description'] = values['descripcion']
+                
+                # Obtener el valor introducido por el usuario en el campo "autor"
+                autor = values['autor']        
+                # Verificar si se introdujo un valor en el campo "autor"
+                if autor.strip():
+                    # Asignar el valor del campo "autor" a "author"
+                    config['author'] = values['autor']
+                
+                # Modificar las variables "base" y "baseurl" de acuerdo al valor del campo "carpeta_raiz"
                 baseurl = (carpeta_raiz).replace(os.path.abspath(''), '')[1:].replace('\\', '/').lstrip(':') + '/_site'
                 config['baseurl'] = baseurl
                 hostname = socket.gethostname()
@@ -493,35 +532,46 @@ def main():
                 # REGENERAR COLECCIÓN
                 process = None  # Declarar la variable process
                 os.chdir(carpeta_raiz)  # Cambiar a la carpeta raíz de la colección
+                window['progress_bar'].update(visible=True)
+                window['progress_bar'].update(10)
+                window['porcentaje'].update(visible=True)
+                window['porcentaje'].update('10%')
+                window['texto_estado'].update(visible=True)
                 window['texto_estado'].update('Guardando los cambios...')
-                window.refresh()  # Actualizar la ventana para mostrar el texto anterior
+                window.refresh()  
                
                 try:
-                    # Compilar la colección (ejecutar rake deploy)
-                    process = subprocess.Popen(['rake.bat', 'deploy'], stdout=subprocess.PIPE, universal_newlines=True, creationflags=subprocess.CREATE_NO_WINDOW)
+                    # Ejecutar el servidor Jekyll
+                    process = subprocess.Popen(['bundle.bat', 'exec', 'jekyll', 'serve'], stdout=subprocess.PIPE, universal_newlines=True, creationflags=subprocess.CREATE_NO_WINDOW)                               
 
                     while True:
                       output = process.stdout.readline().strip()
                       if output == '' and process.poll() is not None:
                           break
-                      if "Auto-regeneration: " in output:
+                      if "Generating..." in output:
+                          window['progress_bar'].update(60)
+                          window['porcentaje'].update('60%')
+                          window.refresh()  
+                      if "Server address: " in output:
+                          window['progress_bar'].update(90)
+                          window['porcentaje'].update('90%')
+                          window.refresh()  
+                      if "Server running... press ctrl-c to stop." in output:
+                          window['progress_bar'].update(100)
+                          window['porcentaje'].update('100%')
+                          window['texto_estado'].update('')
                           sg.popup('Cambios guardados correctamente')
-                          # Abrir en el navegador index.html
-                          webbrowser.open_new_tab(carpeta_raiz + '/_site/index.html')
-                          break   
-
+                          
+                          # Abrir en el navegador index.html                          
+                          webbrowser.open_new_tab('http://127.0.0.1:4000' + baseurl + '/index.html')
+                          break                                               
+                
                 except subprocess.CalledProcessError as e:
                     sg.popup_error(f'Error al generar colección: {e}')
-                finally:
-                    if process is not None and process.poll() is None:
-                        # Terminar el proceso rake deploy
-                        process.terminate()
-                    # Terminar el proceso ruby.exe
-                    subprocess.run(['taskkill', '/im', 'ruby.exe', '/f'], creationflags=subprocess.CREATE_NO_WINDOW)
-
-                    # Cerrar la ventana
-                    window.close()
-                      
+                
+                # Cerrar la ventana
+                window.close()
+                break      
         #BOTÓN "Abrir exposición"
         elif event == 'boton_abrir_1':
             # Cerrar la ventana actual
@@ -531,9 +581,11 @@ def main():
                 [sg.Text('Seleccione el directorio raíz de la colección')],
                 [sg.InputText(), sg.FolderBrowse('Examinar', key='directorio_raiz')],
                 [sg.Button('Abrir', key='boton_abrir_2'), sg.Cancel('Cancelar', key='boton_cancelar_5')],
+                [sg.ProgressBar(100, orientation='h', s=(32,20), k='progress_bar', bar_color=('#082567', 'white'), visible=False), sg.Text('', key='porcentaje', visible=False)],
+                [sg.Text('', key='texto_estado', visible=False)]  
             ]
 
-            window = sg.Window('Fiador - Abrir exposición', layout) # Título de la ventana
+            window = sg.Window('Fiador - Abrir exposición', layout) 
 
             while True:
                 event, values = window.read()
@@ -541,14 +593,52 @@ def main():
                     window.close()
                     break
                 elif event == 'boton_abrir_2':
-                  if not values['directorio_raiz']:
-                     sg.popup('Debe seleccionar el directorio raiz de la exposición.')
-                     continue
-                  directorio_raiz = values['directorio_raiz']
-                  # Abrir en el navegador index.html
-                  webbrowser.open_new_tab(directorio_raiz + '/_site/index.html')
-                  # Cerrar la ventana
-                  window.close()
+                    # Obtener la ruta de la carpeta raiz de la exposición
+                    directorio_raiz = values['directorio_raiz']
+                    baseurl = (directorio_raiz).replace(os.path.abspath(''), '')[1:].replace('\\', '/').lstrip(':') + '/_site'
+                    if not values['directorio_raiz']:
+                        sg.popup('Debe seleccionar el directorio raiz de la exposición.')
+                        continue
+                    process = None  # Declarar la variable process
+                    os.chdir(directorio_raiz)  # Cambiar a la carpeta raíz de la colección
+                    window['progress_bar'].update(visible=True)
+                    window['progress_bar'].update(10)
+                    window['porcentaje'].update(visible=True)
+                    window['porcentaje'].update('10%')
+                    window['texto_estado'].update(visible=True)
+                    window['texto_estado'].update('Iniciando el servidor...')
+                    window.refresh()  
+               
+                    try:
+                        # Ejecutar el servidor Jekyll
+                        process = subprocess.Popen(['bundle.bat', 'exec', 'jekyll', 'serve'], stdout=subprocess.PIPE, universal_newlines=True, creationflags=subprocess.CREATE_NO_WINDOW)
+
+                        while True:
+                          output = process.stdout.readline().strip()
+                          if output == '' and process.poll() is not None:
+                              break
+                          if "Generating..." in output:
+                              window['progress_bar'].update(60)
+                              window['porcentaje'].update('60%')
+                              window['texto_estado'].update('Generando exposición...')
+                              window.refresh()  
+                          if "Server address: " in output:
+                              window['progress_bar'].update(90)
+                              window['porcentaje'].update('90%')
+                              window.refresh()  
+                          if "Server running... press ctrl-c to stop." in output:
+                              window['progress_bar'].update(100)
+                              window['porcentaje'].update('100%')
+                              window['texto_estado'].update('')
+                          
+                              # Abrir index.html en el navegador 
+                              webbrowser.open_new_tab('http://127.0.0.1:4000' + baseurl + '/index.html')
+                              break 
+                    except subprocess.CalledProcessError as e:
+                        sg.popup_error(f'Error al generar colección: {e}') 
+                        
+                    # Cerrar la ventana
+                    window.close()
 if __name__ == '__main__':
     
     main()              
