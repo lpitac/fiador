@@ -10,7 +10,7 @@
 # Fiador
 __Fiador__ es un software libre escrito en [Python](https://www.python.org) que permite _hilar_ una __colección de objetos digitales__ y sus __metadatos__ en formato __CSV__, para crear un sitio web basado en la plantilla [___Exposición Virtual___](https://github.com/lpitac/exposicion).
 
-El sitio web resultante se puede alojar en un servidor web básico (local o de internet) o en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/) ).
+El sitio web resultante se puede alojar en un servidor web básico (local o de internet) o en [GitHub](https://github.com/) (haciendo uso de [GitHub Actions Jekyll](https://jekyllrb.com/docs/continuous-integration/github-actions/)).
 
 __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con el objetivo de que su uso requiera de los __mínimos recursos__ de __hardware__, __software__ y __conocimientos informáticos__.
 
