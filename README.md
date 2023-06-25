@@ -14,7 +14,8 @@ El sitio web resultante se puede alojar en una carpeta compartida de una red, en
 
 __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con el objetivo de que su uso requiera de los __mínimos recursos__ de __hardware__, __software__ y __conocimientos informáticos__.
 
-<h3 align="center"><a href="https://purl.org/fiador/exe">| Descargar Fiador (v. 1.0) |</a></h3>
+<h3 align="center"><a href="https://purl.org/fiador/exe">| Descargar Fiador |</a></h3>  
+<p align="center">(v. 1.0)</p>
 
 <a name="demo"></a>
 # Demo
