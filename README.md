@@ -17,7 +17,7 @@ __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con
 <div align="center">
   <p>
     <img src="https://github.com/lpitac/fiador/blob/main/iconos/descargar.png" alt="Icono de Descargar" style="vertical-align: middle;">
-    <span style="font-size: 32px;">| Descargar Fiador |</span>
+    <span style="font-size: 80px;">Descargar Fiador</span>
   </p>
 </div>
 
