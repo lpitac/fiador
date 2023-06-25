@@ -15,9 +15,10 @@ El sitio web resultante se puede alojar en un servidor web básico (local o de i
 __Fiador__ ha sido desarrollado bajo principios de __computación mínima__, con el objetivo de que su uso requiera de los __mínimos recursos__ de __hardware__, __software__ y __conocimientos informáticos__.
 
 <div align="center">
-    <img src="https://github.com/lpitac/fiador/blob/main/iconos/descargar.png" alt="Icono de descarga" style="vertical-align: middle;">
-    <a href="https://purl.org/fiador/exe" style="font-size: 32px;"> Descargar Fiador</a>
-  </a>
+  <p>
+    <img src="https://github.com/lpitac/fiador/blob/main/iconos/descargar.png" alt="Icono de Descargar" style="vertical-align: middle;">
+    <span style="font-size: 32px;">| Descargar Fiador |</span>
+  </p>
 </div>
 
 <a name="demo"></a>
