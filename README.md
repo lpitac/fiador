@@ -1,7 +1,7 @@
 <p></p>
 <h1 align="center">Fiador</h1>
 
-<h1 align="center"><img src="https://github.com/lpitac/fiador/blob/capturas/main/portada_fiador.svg"></h1>
+<h1 align="center"><img src="https://github.com/lpitac/fiador/blob/main/capturas/portada_fiador.svg"></h1>
 
 > <h3 align="center">La forma más sencilla de crear una exposición virtual a partir de una colección de objetos digitales y un CSV con sus metadatos.</h3>
 
