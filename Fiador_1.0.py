@@ -141,7 +141,8 @@ def main():
                             with open(ruta_config, 'r') as f:
                                 config = yaml.safe_load(f)
 
-                            # Modificar url y baseurl
+                            # Modificar title, url y baseurl
+                            config['title'] = "Plantilla de prueba"
                             baseurl = (carpeta_raiz).replace(os.path.abspath(''), '')[1:].replace('\\', '/').lstrip(':') + '/_site'
                             config['baseurl'] = baseurl
                             hostname = socket.gethostname()
